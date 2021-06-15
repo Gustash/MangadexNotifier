@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0B7272A2678B73200314C8B /* MangadexNotifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B727292678B73200314C8B /* MangadexNotifierApp.swift */; };
+		A0B7272C2678B73200314C8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7272B2678B73200314C8B /* ContentView.swift */; };
+		A0B7272E2678B73400314C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B7272D2678B73400314C8B /* Assets.xcassets */; };
+		A0B727312678B73400314C8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B727302678B73400314C8B /* Preview Assets.xcassets */; };
+		A0B7273B2678B73400314C8B /* MangadexNotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7273A2678B73400314C8B /* MangadexNotifierTests.swift */; };
+		A0B727452678B73500314C8B /* MangadexNotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B727442678B73500314C8B /* MangadexNotifierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0B727372678B73400314C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0B7271E2678B73200314C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0B727252678B73200314C8B;
+			remoteInfo = MangadexNotifier;
+		};
+		A0B727412678B73500314C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0B7271E2678B73200314C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0B727252678B73200314C8B;
+			remoteInfo = MangadexNotifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0B727262678B73200314C8B /* MangadexNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangadexNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B727292678B73200314C8B /* MangadexNotifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangadexNotifierApp.swift; sourceTree = "<group>"; };
+		A0B7272B2678B73200314C8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0B7272D2678B73400314C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0B727302678B73400314C8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0B727362678B73400314C8B /* MangadexNotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangadexNotifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B7273A2678B73400314C8B /* MangadexNotifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangadexNotifierTests.swift; sourceTree = "<group>"; };
+		A0B727402678B73400314C8B /* MangadexNotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangadexNotifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B727442678B73500314C8B /* MangadexNotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangadexNotifierUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0B727232678B73200314C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B727332678B73400314C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7273D2678B73400314C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0B7271D2678B73200314C8B = {
+			isa = PBXGroup;
+			children = (
+				A0B727282678B73200314C8B /* MangadexNotifier */,
+				A0B727392678B73400314C8B /* MangadexNotifierTests */,
+				A0B727432678B73500314C8B /* MangadexNotifierUITests */,
+				A0B727272678B73200314C8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0B727272678B73200314C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0B727262678B73200314C8B /* MangadexNotifier.app */,
+				A0B727362678B73400314C8B /* MangadexNotifierTests.xctest */,
+				A0B727402678B73400314C8B /* MangadexNotifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0B727282678B73200314C8B /* MangadexNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				A0B727292678B73200314C8B /* MangadexNotifierApp.swift */,
+				A0B7272B2678B73200314C8B /* ContentView.swift */,
+				A0B7272D2678B73400314C8B /* Assets.xcassets */,
+				A0B7272F2678B73400314C8B /* Preview Content */,
+			);
+			path = MangadexNotifier;
+			sourceTree = "<group>";
+		};
+		A0B7272F2678B73400314C8B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A0B727302678B73400314C8B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0B727392678B73400314C8B /* MangadexNotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7273A2678B73400314C8B /* MangadexNotifierTests.swift */,
+			);
+			path = MangadexNotifierTests;
+			sourceTree = "<group>";
+		};
+		A0B727432678B73500314C8B /* MangadexNotifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0B727442678B73500314C8B /* MangadexNotifierUITests.swift */,
+			);
+			path = MangadexNotifierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0B727252678B73200314C8B /* MangadexNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B727482678B73500314C8B /* Build configuration list for PBXNativeTarget "MangadexNotifier" */;
+			buildPhases = (
+				A0B727222678B73200314C8B /* Sources */,
+				A0B727232678B73200314C8B /* Frameworks */,
+				A0B727242678B73200314C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MangadexNotifier;
+			productName = MangadexNotifier;
+			productReference = A0B727262678B73200314C8B /* MangadexNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0B727352678B73400314C8B /* MangadexNotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B7274B2678B73500314C8B /* Build configuration list for PBXNativeTarget "MangadexNotifierTests" */;
+			buildPhases = (
+				A0B727322678B73400314C8B /* Sources */,
+				A0B727332678B73400314C8B /* Frameworks */,
+				A0B727342678B73400314C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0B727382678B73400314C8B /* PBXTargetDependency */,
+			);
+			name = MangadexNotifierTests;
+			productName = MangadexNotifierTests;
+			productReference = A0B727362678B73400314C8B /* MangadexNotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0B7273F2678B73400314C8B /* MangadexNotifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B7274E2678B73500314C8B /* Build configuration list for PBXNativeTarget "MangadexNotifierUITests" */;
+			buildPhases = (
+				A0B7273C2678B73400314C8B /* Sources */,
+				A0B7273D2678B73400314C8B /* Frameworks */,
+				A0B7273E2678B73400314C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0B727422678B73500314C8B /* PBXTargetDependency */,
+			);
+			name = MangadexNotifierUITests;
+			productName = MangadexNotifierUITests;
+			productReference = A0B727402678B73400314C8B /* MangadexNotifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0B7271E2678B73200314C8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A0B727252678B73200314C8B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					A0B727352678B73400314C8B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A0B727252678B73200314C8B;
+					};
+					A0B7273F2678B73400314C8B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A0B727252678B73200314C8B;
+					};
+				};
+			};
+			buildConfigurationList = A0B727212678B73200314C8B /* Build configuration list for PBXProject "MangadexNotifier" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0B7271D2678B73200314C8B;
+			productRefGroup = A0B727272678B73200314C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0B727252678B73200314C8B /* MangadexNotifier */,
+				A0B727352678B73400314C8B /* MangadexNotifierTests */,
+				A0B7273F2678B73400314C8B /* MangadexNotifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0B727242678B73200314C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B727312678B73400314C8B /* Preview Assets.xcassets in Resources */,
+				A0B7272E2678B73400314C8B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B727342678B73400314C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7273E2678B73400314C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0B727222678B73200314C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B7272C2678B73200314C8B /* ContentView.swift in Sources */,
+				A0B7272A2678B73200314C8B /* MangadexNotifierApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B727322678B73400314C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B7273B2678B73400314C8B /* MangadexNotifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7273C2678B73400314C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B727452678B73500314C8B /* MangadexNotifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0B727382678B73400314C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0B727252678B73200314C8B /* MangadexNotifier */;
+			targetProxy = A0B727372678B73400314C8B /* PBXContainerItemProxy */;
+		};
+		A0B727422678B73500314C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0B727252678B73200314C8B /* MangadexNotifier */;
+			targetProxy = A0B727412678B73500314C8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0B727462678B73500314C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0B727472678B73500314C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0B727492678B73500314C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MangadexNotifier/Preview Content\"";
+				DEVELOPMENT_TEAM = 9Y6Q2LA85N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.gustash.MangadexNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0B7274A2678B73500314C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MangadexNotifier/Preview Content\"";
+				DEVELOPMENT_TEAM = 9Y6Q2LA85N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.gustash.MangadexNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0B7274C2678B73500314C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y6Q2LA85N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.gustash.MangadexNotifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MangadexNotifier.app/MangadexNotifier";
+			};
+			name = Debug;
+		};
+		A0B7274D2678B73500314C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y6Q2LA85N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.gustash.MangadexNotifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MangadexNotifier.app/MangadexNotifier";
+			};
+			name = Release;
+		};
+		A0B7274F2678B73500314C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y6Q2LA85N;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.gustash.MangadexNotifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MangadexNotifier;
+			};
+			name = Debug;
+		};
+		A0B727502678B73500314C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y6Q2LA85N;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.gustash.MangadexNotifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MangadexNotifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0B727212678B73200314C8B /* Build configuration list for PBXProject "MangadexNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B727462678B73500314C8B /* Debug */,
+				A0B727472678B73500314C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B727482678B73500314C8B /* Build configuration list for PBXNativeTarget "MangadexNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B727492678B73500314C8B /* Debug */,
+				A0B7274A2678B73500314C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B7274B2678B73500314C8B /* Build configuration list for PBXNativeTarget "MangadexNotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B7274C2678B73500314C8B /* Debug */,
+				A0B7274D2678B73500314C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B7274E2678B73500314C8B /* Build configuration list for PBXNativeTarget "MangadexNotifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B7274F2678B73500314C8B /* Debug */,
+				A0B727502678B73500314C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0B7271E2678B73200314C8B /* Project object */;
+}
